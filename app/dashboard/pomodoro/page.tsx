@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Icons } from "@/components/icons"
-import { useData } from "@/components/data-provider"
+import { useData } from "../../../components/data-provider"
 import { useToast } from "@/hooks/use-toast"
 
 export default function PomodoroPage() {
